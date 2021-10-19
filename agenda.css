@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+}
+body{
+    background: rgb(250, 237, 205);
+}
+.cassure{
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 90px;
+    z-index: -1;
+    transform: rotate(-5deg);
+    animation: bris 1.1s linear;
+}
+@keyframes bris{
+    0%{opacity: 0;}
+    95%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.fin{
+    animation: cassure 1s linear  ;  
+    overflow: hidden;
+    
+}
+@keyframes cassure{
+    0%{margin-top: -600px;}
+    80%{margin-top: -300px;}
+    100%{margin-top: 0px;}
+}
+
+
+
+.titre{
+    padding: 100px;
+    text-align: center;
+    font-family: "Big Shoulders Stencil Display";
+    font-weight: 900;
+    font-size: 6.5rem;
+    letter-spacing: 0.6rem;
+    color: rgb(69, 73, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    padding: 25px;
+    background: rgba(249, 65, 68, 0.76);
+    border-radius: 40px;
+    font-family: "Bebas Neue";
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 800;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+    
+}
+button:hover{
+    background: rgba(191, 219, 247, 0.726);
+    color: rgb(250, 237, 205);
+}
+
+table{
+    padding: 30px;
+    font-family:"Bebas Neue" ;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    font-size: 1.6rem;
+    width: 95%;
+    color: grey;
+    margin: 30px;
+    text-align: center;
+}
+.h9,
+.h10,
+.h13,
+.h14,
+.h15,
+.h16,
+.h17{
+    height: 60px;
+}
+
+.h8,
+.h9,
+.h10,
+.h11,
+.h12,
+.h13,
+.h14,
+.h15,
+.h16,
+.h17,
+.h18,
+.h19,
+.h20,
+.h21,
+.h22,
+.h23{
+    background: rgba(152, 180, 184, 0.596);
+    
+    
+}
+
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5{
+    border: solid rgb(212, 163, 115) 3px;
+    height: min-content;
+}
+
+.samedi,
+.dimanche{
+    width: min-content;
+    background: rgba(191, 219, 247, 0.726);
+}
+
+.a1{
+    animation: a1 6s infinite linear;
+}
+@keyframes a1{
+    0%{border-color:rgb(212, 163, 115) ;}
+    5%{border-color: rgb(239, 60, 45);}
+    20%{border-color: rgb(212, 163, 115);}
+    83%{border-color: rgb(239, 60, 45);}
+    100%{border-color: rgb(212, 163, 115);}
+}
+.a2{
+    animation: a2 6s infinite linear;
+}
+@keyframes a2{
+    0%{border-color: rgb(212, 163, 115);}
+    21%{border-color: rgb(239, 60, 45);}
+    35%{border-color: rgb(212, 163, 115);}
+    83%{border-color: rgb(239, 60, 45);}
+    100%{border-color: rgb(212, 163, 115);}
+}
+.a3{
+    animation: a3 6s infinite linear;
+}
+@keyframes a3{
+    0%{border-color: rgb(212, 163, 115);}
+    36%{border-color: rgb(239, 60, 45);}
+    50%{border-color: rgb(212, 163, 115);}
+    83%{border-color: rgb(239, 60, 45);}
+    100%{border-color: rgb(212, 163, 115);}
+}
+.a4{
+    animation: a4 6s infinite linear;
+}
+@keyframes a4{
+    0%{border-color: rgb(212, 163, 115);}
+    51%{border-color: rgb(239, 60, 45);}
+    65%{border-color: rgb(212, 163, 115);}
+    83%{border-color: rgb(239, 60, 45);}
+    100%{border-color: rgb(212, 163, 115);}
+}
+.a5{
+    animation: a5 6s infinite linear;
+}
+@keyframes a5{
+    0%{border-color: rgb(212, 163, 115);}
+    66%{border-color: rgb(239, 60, 45);}
+    80%{border-color: rgb(212, 163, 115);}
+    83%{border-color: rgb(239, 60, 45);}
+    100%{border-color: rgb(212, 163, 115);}
+}
+
+td{
+    padding: 20px;
+    border: solid rgb(212, 163, 115) 2px;
+    color:rgb(107, 112, 92) ;
+}
+.vide{
+    width: 100px;
+    background: transparent;
+}
+th{
+    padding: 20px;
+    border: solid rgb(212, 163, 115) 2px;
+    width: 200px;
+    background: rgba(221, 202, 125, 0.863);
+    
+}
+
+.sport{
+    background: rgb(181, 201, 154);
+}
+.fifa{
+    background: rgba(191, 219, 247, 0.726);
+}
+.cours{
+    background: rgb(242, 148, 121);
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "name date"
+        "message message"
+        "valider valider"
+    ;
+}
+input, 
+textarea{
+    margin: 10px;
+    height: 20px;
+    border: solid 3px rgb(69, 73, 54) ;
+    border-radius: 5px;
+    text-align: center;
+    height: 70px;
+    font-family: "Cairo";
+    font-size: 1.1rem;
+}
+#name{
+    grid-area: name;
+}
+#date{
+    grid-area: date;
+}
+#message{
+    grid-area: message;
+    resize: none;
+}
+#valider{
+    grid-area: valider;
+    background:rgba(191, 219, 247, 0.726) ;
+    cursor: pointer;
+}
+#valider:hover{
+    background:rgba(249, 65, 68, 0.76) ;
+    color: white;
+}
